@@ -100,16 +100,17 @@ main {
     color: #000;
 }
 .hero button{
-    padding: 12px;
+    padding: 10px;
     font-size: 1.5rem;
     background: none;
     border: none;
-    color: chartreuse;
+    color: rgb(17, 197, 10);
     font-size: 2rem;
 }
 
-button:hover {
-    background-color: #218838;
+.hero button:hover {
+    background-color: #cc5016;
+    border-radius: 10px;
   }
 
 /* *********************  main ************************ */
@@ -137,7 +138,8 @@ button:hover {
 .research-bar button{
     padding: 5px;
 }
- 
+
+
 .research-bar h2 {
     font-size: 3rem;
     margin-top: 15px;
@@ -315,3 +317,44 @@ footer p{
   }
 }
 
+/* ******************** Ajouter au panier********************* */
+
+.hidden {
+    display: none;
+}
+
+.cart {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 300px;
+    background: rgb(226, 223, 223);
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.cart {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    color: #000;
+}
+
+.cart h2 {
+    text-align: center;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 5px;
+}
+
+.cart-items li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
